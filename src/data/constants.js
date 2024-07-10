@@ -2,14 +2,13 @@ export const Bio = {
     name: "Karthik V",
     roles: [
       "Full Stack Developer",
-      "UI/UX Designer",
       "Programmer",
     ],
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Karthik2154",
     resume:
-      "https://drive.google.com/file/d/1VxANSxdRVT9Dq31E6lUPhInrQJK05o2M/view?usp=sharing",
+    "https://drive.google.com/file/d/1lS3WfJeAO5SETPl4oY_ySD8th29zQTq8/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/karthik2154/",
     insta: "https://www.instagram.com/karthik_2_1_1_3_/",
   };
@@ -22,11 +21,6 @@ export const Bio = {
           name: "React Js",
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-        },
-        {
-          name: "Redux",
-          image:
-            "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
         },
         {
           name: "HTML",
@@ -71,10 +65,16 @@ export const Bio = {
     {
       title: "Others",
       skills: [
+        
+        {
+          name: "AWS",
+          image:
+            "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png",
+        },
         {
           name: "Git",
           image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+            "https://git-scm.com/images/logos/downloads/Git-Icon-Black.png",
         },
         {
           name: "GitHub",
@@ -86,13 +86,65 @@ export const Bio = {
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
         },
-        {
-          name: "Figma",
-          image:
-            "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
-        },
       ],
     },
+  ];
+
+  export const experiences = [
+    {
+      id: 0,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpCFUkYx3ytpdR2sI9-LfuUz_mlelGVaPHUQ&s",
+      role: "MERN Fullstack Developer Intern",
+      company: "Ethnus Codemithra",
+      date: "Aug 2023 - Nov 2023",
+      skills: [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Bootstrap",
+        "Mongo DB",
+        "React JS",
+        "TExpress JS",
+        "Node Js",
+      ],
+      doc: "https://drive.google.com/file/d/1ugCM6JBQRiTv1hSZ3QVFFUfKOXlwBay1/view?usp=sharing",
+    },
+    {
+      id: 0,
+      img: "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png",
+      role: "AWS Cloud Practitioner",
+      company: "Amazon Web Services",
+      date: "Aug 2023 - Nov 2023",
+      skills: [
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS",
+        "Amazon IAM",
+        "Amazon VPC",
+        "AWS Lambda",
+        "AWS CloudWatch",
+        "Amazon Route 53",
+      ],
+      doc: "https://drive.google.com/file/d/12whr4psx7POGoSpKcaWkA9sNRr0wFKQV/view?usp=sharing",
+    },
+    {
+      id: 1,
+      img: "https://media.licdn.com/dms/image/C4E0BAQHBYrO0WmZghQ/company-logo_200_200/0/1630623498876?e=2147483647&v=beta&t=yuos31GRUntEFxqhjkuVlrar03NZkyvXqikN1H8nkBI",
+      role: "Core Committee Member",
+      company: "Creativity Club",
+      date: "Jan 2022 - Present",},
+      {
+      id: 2,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwjk6Bj2hcaCnDw0Y9rVKV-Y49TwlfRgxeVw&s",
+      role: "Core Committee Member",
+      company: "Cubing Club",
+      date: "Jan 2022 - Present",},
+    {
+      id: 3,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZb9U2Jva8IDNMnB7CaAgG8fb2ZxFb9-MJNw&s",
+      role: "Core Committee Member",
+      company: "SEDS VIT",
+      date: "Jan 2022 - Present",},
   ];
   
   export const education = [
@@ -100,8 +152,8 @@ export const Bio = {
       id: 0,
       school: "Vellore Institute of Technology",
       date: "Oct 2021 - Sep 2025",
-      grade: "9.36 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Vellore Institute of Technology. I have completed 5 semesters and have a CGPA of 9.36. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of SEDS club, Cubing club and Creativity club at VIT, where I am learning and working with a team of talented students.",
+      grade: "9.39 CGPA",
+      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Vellore Institute of Technology. I have completed 6 semesters and have a CGPA of 9.39. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of SEDS club, Cubing club and Creativity club at VIT, where I am learning and working with a team of talented students.",
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
     {
@@ -122,10 +174,45 @@ export const Bio = {
     },
   ];
   
-  export const TimeLineData = [
-    { year: 2017, text: "Started my journey" },
-    { year: 2018, text: "Worked as a freelance developer" },
-    { year: 2019, text: "Founded JavaScript Mastery" },
-    { year: 2020, text: "Shared my projects with the world" },
-    { year: 2021, text: "Started my own platform" },
+  export const projects = [
+    {
+      id: 9,
+      title: "Online Quiz Application",
+      description:
+        "QuizX is an interactive online quiz application developed using the MERN (MongoDB, Express.js, React, Node.js) stack, aimed at providing a seamless and engaging experience for users to create, take, and manage quizzes. The application incorporates various features to enhance user interaction, assessment capabilities, and real-time feedback.",
+      image:
+        "https://repository-images.githubusercontent.com/182525249/aadd7a80-54fe-11eb-9872-ccd06b8789b6",
+      tags: [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Javascript",
+        "React Js",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+      ],
+      category: "web app",
+      webapp: "https://quizx-front-end.vercel.app/",
+    },
+    {
+      id: 1,
+      title: "File Compression System",
+      description:
+        "The File Compression System is a Java-based application designed to optimize file storage by reducing the size of files through efficient data encoding techniques. Utilizing Huffman coding, the system compresses files by transforming data into compact binary sequences, thereby significantly reducing storage requirements without compromising data integrity.",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIBQqNddKl7dGq3iAsTSyksjR4K0sbiyd3hQ&s",
+      tags: [
+        "Huffman",
+        "DSA",
+        "File Compression",
+        "Huffman Encoding",
+        "Java",
+      ],
+      category: "DSA",
+      github: "https://github.com/Karthik2154/File-Compression-DS",
+    },
+    
   ];
+  
+  
